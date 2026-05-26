@@ -8,4 +8,14 @@
     border: dotted 5px rgba(0,0,0,0.9);
     margin: 10% auto;
     padding: 70px;
-} 
+}
+
+.produtos img {
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.produtos img:hover {
+    transform: scale(1.2);
+}
