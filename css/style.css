@@ -33,7 +33,10 @@
     font-weight: bold;
     font-family: Arial;
     color: #2A8B8B;
-    padding: 10px;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: 11px;
 }
+
