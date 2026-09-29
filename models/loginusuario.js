@@ -1,2 +1,12 @@
 const criarUsuario = async (
-  nome
+  nome,
+  login,
+  senha,
+) <= {
+
+  const sql = `INSERT INTO
+              usuarios (nome, login, senha)
+              VALUES (?, ?, ?)´;
+  const [resultado] = await db.execute(sql, [nome, login, senha]);
+  return resultado;
+}
