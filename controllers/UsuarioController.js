@@ -23,3 +23,6 @@ const criarUsuario = async (req, res) => {
   } catch (erro) {
     res. status (502) -json({
         mensagem: "Erro ao cadastrar usuário!"
+    })
+  }
+}
